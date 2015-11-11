@@ -1,0 +1,13 @@
+<div ng-controller="clientTypeController">
+	<div>
+		<form ng-submit="submitClType()">
+			<input ng-model="data.name" name="type-name" placeholder="Name"></input>
+			<button type="submit">Save</button>
+		</form>
+	</div>
+	<div>
+		<ul>
+			<li ng-repeat="item in ClType"><a href="">{{ item.name }}</a></li>
+		</ul>
+	</div>
+</div>

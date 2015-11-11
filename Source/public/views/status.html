@@ -1,0 +1,15 @@
+<div ng-controller="statusController">
+	<div>
+		<form ng-submit="submitStatus()">
+			<input ng-model="statusData.name" name="status-name"
+				placeholder="Name"></input>
+			<button type="submit">Save</button>
+			<div ng-model="Status"></div>
+		</form>
+	</div>
+	<div>
+		<ul>
+			<li ng-repeat="item in Status">{{ item.name }}</li>
+		</ul>
+	</div>
+</div>
