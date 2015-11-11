@@ -1,0 +1,18 @@
+{ 
+    "_id" : ObjectId("5640abfb314d5d7cfc3c1002"), 
+    "Email" : "otong@gmail.com", 
+    "Nama" : "Otong Saipuddin", 
+    "Telepon" : "08122223123"
+}
+{ 
+    "_id" : ObjectId("5640ac4f314d5d7cfc3c1004"), 
+    "Email" : "jamilah@gmail.com", 
+    "Nama" : "Jamilah Putri", 
+    "Telepon" : "081342342342"
+}
+{ 
+    "_id" : ObjectId("5640ac67314d5d7cfc3c1006"), 
+    "Email" : "jek.roy@yahoo.com", 
+    "Nama" : "Roy Sucipto", 
+    "Telepon" : "081234534535"
+}

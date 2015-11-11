@@ -1,0 +1,99 @@
+{ 
+    "_id" : ObjectId("5640ae3a314d5d7cfc3c1009"), 
+    "Nama" : "Bengkel Eksotis", 
+    "Alamat" : "Jl Harapan Palsu, Jakarta Utara", 
+    "Kontak" : {
+        "Telpon" : [
+            "08673343424", 
+            "(021)2342423"
+        ], 
+        "Situs" : "www.bengkel-eksotis", 
+        "Twitter" : "", 
+        "Facebook" : "www.facebook.com/eksotisbro"
+    }, 
+    "Deskripsi" : "Service berat, service ringan, ganti oli, ganti kabel, permak", 
+    "Koordinat" : "-6.8841316795519605,107.58164405822754", 
+    "Kategori" : "Bengkel", 
+    "Komentar" : [
+        {
+            "Email" : "otong@gmail.com", 
+            "Nama" : "Otong Saipuddin", 
+            "Rating" : NumberInt(3), 
+            "Komentar" : "bengkel bagus broh"
+        }, 
+        {
+            "Email" : "jamilah@gmail.com", 
+            "Nama" : "Jamilah Putri", 
+            "Rating" : NumberInt(4), 
+            "Komentar" : "reccomended deh, pelayanan mantap"
+        }
+    ]
+}
+{ 
+    "_id" : ObjectId("56436b465e68874815dd72f3"), 
+    "Nama" : "Warteg Kasmaran", 
+    "Alamat" : "Jl Hati Terluka, Bandung", 
+    "Kontak" : {
+        "Telpon" : [
+            "(022)2344433"
+        ], 
+        "Situs" : "", 
+        "Twitter" : "", 
+        "Facebook" : ""
+    }, 
+    "Deskripsi" : "makanan enak, sehat, bergizi", 
+    "Koordinat" : "-6.8841316795519605,107.58164405822754", 
+    "Kategori" : "Bersantap", 
+    "Komentar" : [
+        {
+            "Email" : "otong@gmail.com", 
+            "Nama" : "Otong Saipuddin", 
+            "Rating" : NumberInt(5), 
+            "Komentar" : "warteg bagus, bohay"
+        }, 
+        {
+            "Email" : "jamilah@gmail.com", 
+            "Nama" : "Jamilah Putri", 
+            "Rating" : NumberInt(4), 
+            "Komentar" : "reccomended deh, pelayanan mantap"
+        }
+    ]
+}
+{ 
+    "_id" : ObjectId("56436d285e68874815dd72f6"), 
+    "Nama" : "Salon Bebi", 
+    "Alamat" : "Jl Menggoda, Bali", 
+    "Kontak" : {
+        "Telpon" : [
+            "08645455454", 
+            "0234233444"
+        ], 
+        "Situs" : "www.sekseh.co.id", 
+        "Twitter" : "www.twitter.com/salonbebi", 
+        "Facebook" : "www.facebook.com/salonbebi", 
+        "Instagram" : "instagram.com/salonbebi"
+    }, 
+    "Deskripsi" : "potong rambut, semir, catok", 
+    "Koordinat" : "-6.8841316795519605,107.58164405822754", 
+    "Kategori" : "Nyalon", 
+    "Komentar" : [
+        {
+            "Email" : "jack@gmail.com", 
+            "Nama" : "Jack Subur", 
+            "Rating" : NumberInt(2), 
+            "Komentar" : "bagus tapi mahal"
+        }, 
+        {
+            "Email" : "zaenab09@gmail.com", 
+            "Nama" : "Zaenab Putri", 
+            "Rating" : NumberInt(4), 
+            "Komentar" : "service memuaskan"
+        }, 
+        {
+            "Email" : "sisil@ymail.com", 
+            "Nama" : "Githa Sisilia", 
+            "Rating" : NumberInt(4), 
+            "Komentar" : "ciami, dan top markotop deh"
+        }
+    ]
+}

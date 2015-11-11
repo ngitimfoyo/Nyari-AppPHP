@@ -1,0 +1,24 @@
+{ 
+    "_id" : ObjectId("5640aa52314d5d7cfc3c0ff5"), 
+    "Nama" : "Bersantap"
+}
+{ 
+    "_id" : ObjectId("5640ab83314d5d7cfc3c0ff7"), 
+    "Nama" : "Nyalon"
+}
+{ 
+    "_id" : ObjectId("5640ab93314d5d7cfc3c0ff9"), 
+    "Nama" : "Bengkel"
+}
+{ 
+    "_id" : ObjectId("5640aba5314d5d7cfc3c0ffb"), 
+    "Nama" : "Gembok"
+}
+{ 
+    "_id" : ObjectId("5640abbc314d5d7cfc3c0ffd"), 
+    "Nama" : "Ngekos"
+}
+{ 
+    "_id" : ObjectId("5640abcd314d5d7cfc3c0fff"), 
+    "Nama" : "Nambal"
+}
