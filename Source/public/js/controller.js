@@ -1,8 +1,8 @@
-angular.module('mainCtrl', [])
+angular.module('nyariCtrl', [])
 	// inject the Status service into our controller
-	.controller('statusController', function($scope, $http, Status) {
+	.controller('kategoriCtrl', function($scope, $http, Kategori) {
 	    // object to hold all the data for the new Status form
-	    $scope.statusData = {};
+	    $scope.KategoriData = {};
 	
 	    // loading variable to show the spinning loading icon
 	    $scope.loading = true;
@@ -10,9 +10,9 @@ angular.module('mainCtrl', [])
 	    // get all the Statuss first and bind it to the $scope.Statuss object
 	    // use the function we created in our service
 	    // GET ALL StatusS ==============
-	    Status.get()
+	    Kategori.get()
 	        .success(function(data) {
-	            $scope.Status = data;
+	            $scope.KategoriData = data;
 	            $scope.loading = false;
 	        });
 	

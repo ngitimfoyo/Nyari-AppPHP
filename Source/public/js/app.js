@@ -1,6 +1,6 @@
-var bersantapApp = angular.module('bersantapApp', ['mainCtrl', 'statusService', 'ngRoute']);
+var nyariApp = angular.module('NyariApp', ['nyariCtrl', 'nyariService', 'ngRoute']);
 
-bersantapApp.config(function($routeProvider) {
+nyariApp.config(function($routeProvider) {
     $routeProvider        
         .when('/status', {
             templateUrl : '../views/status.html',
@@ -64,7 +64,7 @@ TR.LoadMap = function() {
 	var self = this;
 	
 	// initialize map	
-	self.Map = new google.maps.Map(document.getElementById('kotak-peta'), self.MapOptions);	
+	self.Map = new google.maps.Map(document.getElementById('peta-area'), self.MapOptions);	
 
 	// get User location
 	if(navigator.geolocation) {
